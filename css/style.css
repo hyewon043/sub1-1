@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{font-size: 18px; line-height: 20px;}
+
+.header{width: 100%; font-family: 'GangwonEdu_OTFBoldA';}
+.header_inner{width: 1320px; margin: auto;}
+.logo{width: 164px; height: 46px; margin: 30px auto;}
+
+.login{width: 400px; position: absolute; top: 10px; right: 70px; z-index: 2; font-family: 'GangwonEdu_OTFBoldA';}
+.login ul li{float: left; width: 25%; text-align: center; }
+.login ul li a{font-family: '굴림'; font-size: 13px; }
+
+.nav{background: url(../images/bg.png) no-repeat; width: 1018px; height: 50px; margin:50px auto; padding: 13px; font-family: 'GangwonEdu_OTFBoldA';}
+.nav ul li{float: left; width: 25%; text-align: center; padding: 5PX;}
+.nav ul li a{color: white; font-size: 20px;}
+
+
+.top{width: 1320px; margin: 100px auto; height: 600px;}
+.top_left{float: left;}
+
+.top_right{float: right; width: 600px;}
+.r_1{border-bottom: 2px solid #9c8b7f; padding: 20px 0px;}
+.r_1 h1{font-weight: 100;}
+.r_1 div{margin-top: 20px; width: 60px; background-color: #9ab88f ; text-align: center; height: 30px; padding: 5px; }
+.r_1 div p{color: white;}
+.r_1 span{font-family: 'Courier New', Courier, monospace;}
+
+.r_2{text-align: left; border-bottom: 2px solid #9c8b7f; padding: 20px 0px;}
+td{width: 200px; padding: 10px 0px;}
+th{padding: 10px 0px; font-size: 20px;}
+
+.r_3{ padding: 20px 0px;}
+.r_3 h2{font-weight: 100; float: left;}
+.r_3 p{float: right; font-size: 25px;}
+.r_3 span{font-size: 30px; font-weight: bold;}
+
+.r_4{margin-top: 40px; font-weight: bold;}
+.r_4 a{display: block; height: 50px; padding: 13px;}
+.b1{width: 600px; height: 50px; border: 2px solid #9c8b7f;text-align: center; }
+.r_4 ul li{width: 275px; height: 50px; text-align: center; border: 2px solid #9c8b7f;text-align: center; margin-top: 20px; float: left;}
+.r_4 ul li:nth-child(1){margin-right: 50px;}
+
+.b1:hover{background-color: #9c8b7f;}
+.r_4 ul li:hover{background-color: #9c8b7f;}
+.r_4 a:hover{color: white;}
+
+
+.DETAIL{width: 1320px; margin: 50px auto; border-bottom: #9c8b7f 2px solid;}
+.DETAIL ul{width: 520px; margin: auto; height: 30px;}
+.DETAIL ul li{float: left; width: 25%; text-align: center;}
+.DETAIL ul li:nth-child(1){font-weight: bold;}
+
+.d_img{width: 800px; margin: 20px auto;}
+.d_img img{display: block;}
+
+.CHECK{width: 1320px; margin: 50px auto; border-bottom: #9c8b7f 2px solid;}
+.CHECK ul{width: 520px; margin: auto; height: 30px;}
+.CHECK ul li{float: left; width: 25%; text-align: center;}
+.CHECK ul li:nth-child(2){font-weight: bold;}
+
+.c_text{width: 1320px; margin: 20px auto; background-color: #e0d4cb; height: 350px; padding: 20px 40px;}
+.c_text p{margin-top: 20px; margin-left: 30px; line-height: 25px;}
+.c_text h2{margin-top: 20px;}
+
+.REVIEW{width: 1320px; margin: 50px auto; border-bottom: #9c8b7f 2px solid;}
+.REVIEW ul{width: 520px; margin: auto; height: 30px;}
+.REVIEW ul li{float: left; width: 25%; text-align: center;}
+.REVIEW ul li:nth-child(3){font-weight: bold;}
+
+.r_p{width: 1320px; margin: 100px auto; text-align: center;}
+
+.QA{width: 1320px; margin: 50px auto; border-bottom: #9c8b7f 2px solid;}
+.QA ul{width: 520px; margin: auto; height: 30px;}
+.QA ul li{float: left; width: 25%; text-align: center;}
+.QA ul li:nth-child(4){font-weight: bold;}
+
+.q_p{width: 1320px; margin: 100px auto; text-align: center;}
+
+/*푸터*/
+.footer{width: 100%; height: 335px; background: url(../images/bg4.png) no-repeat 100%; margin-top: 175px; font-family: 'GangwonEdu_OTFBoldA';}
+
+.footer_inner{width: 1320px; height: 335px; margin:auto; text-align: center; padding: 50px 0px;}
+.f_box1{width: 350px; height: 50px; margin:auto;}
+.f_box1 ul li{float: left; margin: 0px 10px;}
+
+.f_box2{width: 500px; margin: 50px auto;}
+.f_box2_1{height: 40px;}
+.f_box2_1 ul li{float: left; width: 25%; text-align: center;}
+.f_box2_2{text-align: center;}
